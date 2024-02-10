@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txtSymbol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="Symbol"
+        android:textColor="#171616"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Price"
+        />
+
+    <TextView
+        android:id="@+id/txtchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Price"
+        android:textColor="#5715A5"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

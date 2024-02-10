@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="#ECEEEF"
+    android:background="#ECEEEF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".BuyActivity">
+    <TextView
+        android:id="@+id/textViewBalance"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Available Balance:"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textViewSymbol"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewBalance"
+        android:layout_height="wrap_content"
+        android:text="Symbol:"
+android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="30dp"
+android:layout_below="@+id/textViewSymbol"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Price:"
+        android:textSize="15sp"
+       />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etquantity"
+        android:hint="Quantity"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/textViewPrice"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:background="#A442B5"
+        android:padding="5dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etquantity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbBuy"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/rounded_corner"
+
+            android:backgroundTint="#33CA28"
+
+            android:text="Buy"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbSell"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/rounded_corner"
+
+            android:backgroundTint="#FF4B3E"
+            android:text="Sell"
+            android:textColor="@color/white" />
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FBF6F6"
+    android:backgroundTint="#FBF6F6"
+    tools:context=".StockDisplayActivity"
+    android:padding="16dp"
+    >
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="match_parent"
+
+        android:background="@drawable/rounded_corner"
+        android:layout_below="@+id/watchlist"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+
+        android:hint="Enter stock symbol to add"
+        android:drawableStart="@drawable/baseline_search_24"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/micButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/autoCompleteTextView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="-2dp"
+        android:onClick="startSpeechRecognition"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_mic" />
+
+    <TextView
+        android:id="@+id/watchlist"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:gravity="center"
+
+        android:text="Watchlist"
+        android:textColor="@color/darkblue"
+        android:textSize="30sp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewStocks"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/autoCompleteTextView2"
+        android:layout_height="700dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+
+        />
+
+
+
+</RelativeLayout>

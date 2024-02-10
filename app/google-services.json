@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "154251409045",
+    "firebase_url": "https://paptrade-d33dd-default-rtdb.firebaseio.com",
+    "project_id": "paptrade-d33dd",
+    "storage_bucket": "paptrade-d33dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154251409045:android:1a17cb65e17c917a00cd9c",
+        "android_client_info": {
+          "package_name": "com.example.paptrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6HXCIg4gCLkn8idJeQjHCWVyrUpcX0Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

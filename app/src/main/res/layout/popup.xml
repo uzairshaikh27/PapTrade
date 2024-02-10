@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_corner"
+    android:backgroundTint="@color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv1"
+        android:textSize="20sp"
+/>
+
+    <Button
+        android:id="@+id/btnb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#33CA28"
+        android:text="Buy"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btns"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FF4B3E"
+        android:layout_marginRight="20dp"
+android:textColor="@color/white"
+        android:text="Sell"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        style="@android:style/Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+
+        android:text="Remove from Watchlist"
+        android:textColor="#2E4BE8"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

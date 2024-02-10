@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pur">#C0A0FA</color>
+    <color name="grn">#8BC34A</color>
+    <color name="purple_200">#0F9D58</color>
+    <color name="purple_500">#0F9D58</color>
+    <color name="purple_700">#0F9D58</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="grey">#C1BDBD</color>
+    <color name="positiveChange">#00FF00</color> <!-- Green -->
+    <color name="negativeChange">#FF0000</color> <!-- Red -->
+    <color name="button_color">#1E573B</color>
+    <color name="piegreentouch">#83c5be</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#DF972C</color>
+    <color name="blue">#03A9F4</color>
+    <color name="oran">#ECB204</color>
+    <color name="lightg">#D2EDE0</color>
+    <color name="darkblue">#3F51B5</color>
+    <color name="ocean_blue">#F30AFCE6</color>
+    <color name="bll">#227DA6</color>
+    <color name="cnt">#ECEEEF</color>
+    <color name="darkgrey">#9AA2AF</color>
+</resources>
